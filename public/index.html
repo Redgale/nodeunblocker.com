@@ -217,7 +217,7 @@
           url = "https://" + url;
         } else
         
-        url = "https://metasearx.com/" + encodeURIComponent(url);
+        url = "https://metasearx.com/?q=" + encodeURIComponent(url);
       }
       window.location = location.protocol + '//' + location.host + '/proxy/' + url;
       return false;
